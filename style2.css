@@ -1,0 +1,153 @@
+.flex{
+    display: flex;
+}
+
+.list-reset{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.h1-title,
+.h2-title,
+.h3-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p,
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h1-title{
+
+}
+
+.h2-title{
+    font-size: 250%;
+}
+
+.h3-title{
+
+}
+
+.descr{
+
+}
+
+.btn{
+    background: #416680;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* header */
+
+.galery-header,
+.music-header{
+    flex-direction: column;
+    align-items: center;
+    background: #292929;
+}
+
+.galery-header-container,
+.music-header-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid rgb(78, 74, 74);
+}
+
+.galery-header-title,
+.music-header-title{
+    margin: 0;
+    font-size: 25px;
+    margin-right: 50px;
+    color: white;
+}
+
+.galery-header-link,
+.music-header-link{
+    margin: 0;
+    font-size: 30px;
+    margin-left: 25px;
+    color: white;
+}
+
+/* galery-hero */
+
+.galery-hero,
+.music-hero{
+    width: 100%;
+    background: #292929;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.galery-hero-list,
+.music-hero-list{
+    margin: auto;
+    align-items: center;
+    padding: 0;
+    width: 1000px;
+    height: 650px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scrollbar-color: rgb(78, 74, 74) #292929;
+    border-radius: 15px;
+}
+
+.galery-hero-item{
+    
+}
+
+.galery-hero-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.galery-hero-item-img{
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.galery-hero-item-title{
+    margin: 0;
+    color: white;
+}
+
+.galery-hero-item-descr{
+    margin: 0;
+    color: white;
+}
+
+/* music-hero */
+
+.music-hero-list{
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: center;
+}
+
+.music-hero-item{
+    padding: 30px 40px;
+    border: 3px solid rgb(78, 74, 74);
+    border-radius: 15px;
+}
+
+.music-hero-item:nth-child(2n){
+    margin-left: 30px;
+}
+
+.music-hero-item-title{
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.music-hero-item-audio{
+
+}
